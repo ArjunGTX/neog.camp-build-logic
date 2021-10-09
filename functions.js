@@ -24,9 +24,9 @@
 
 // function arrayLength(arr) {
 //     let len = 0
-//     for(let i=0; i<5; i++) {
+//     for(let element of arr) {
 //         len++;
 //     }
 //     return len;
 // }
-// console.log(arrayLength([1,2,3,4,5]));
+// console.log(arrayLength([1,2,3,4,5,5,6,7,7]));
