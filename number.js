@@ -9,6 +9,9 @@
 
 
 
+
+
+
 // Write a Program to Print N Odd Number in Descending Order.
 
 // function printOddNumbers(limit) {
@@ -19,6 +22,9 @@
 //     }
 // }
 // printOddNumbers(10); 
+
+
+
 
 
 
@@ -39,6 +45,8 @@
 
 
 
+
+
 // Write a JavaScript program that reverses a number.
 
 // function reverseNumber(number) {
@@ -50,6 +58,9 @@
 //     return reverse;
 // }
 // console.log(reverseNumber(1234));
+
+
+
 
 
 
@@ -83,6 +94,9 @@
 
 
 
+
+
+
 // Write a Program to convert Decimal to Binary.
 
 // function getBinary(number) {
@@ -96,3 +110,24 @@
 //     return Number(remainderArray.join(''));
 // }
 // console.log(getBinary(5));
+
+
+
+
+
+
+
+// Follow up Question : Write a Program to Convert Octal to Decimal.
+
+// function octalToBinary(number) {
+//     let decimalNumber = 0;
+//     let i = 0;
+//     while(number > 0) {
+//         place = Math.floor(number % 10);
+//         decimalNumber += place * (8**i);
+//         i++
+//         number /= 10;
+//     }
+//     return decimalNumber;
+// }
+// console.log(octalToBinary(116));
