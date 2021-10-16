@@ -57,3 +57,82 @@
 
 
 
+
+// Write a program which receives a string str that calculates the length of a string and return true if the length is greater than 7 without using strlen()
+
+// function checkStrLen(str) {
+//     let len = 0;
+//     for(let char of str) {
+//         len++;
+//     }
+//     if(len > 7) {
+//         return true;
+//     }
+// }
+// console.log(checkStrLen('hello john'));
+
+
+
+
+
+
+
+// Write a program that takes two strings and copies smaller string into bigger string
+
+// function copyString(strOne,strTwo) {
+//     if(strOne.length >= strTwo.length) {
+//         return strOne + strTwo;
+//     } else {
+//         return strTwo + strOne;
+//     }
+// }
+// console.log(copyString('hello','Hai'));
+
+
+
+
+
+
+
+// Given a string, determine if it is a palindrome, considering only alphanumeric characters
+
+// function checkPalindromeString(str) {
+//     let flag = 1;
+//     for(let i=0; i<str.length; i++) {
+//         if(str[i] !== str[str.length-i-1]) {
+//             flag = 0;
+//             break;
+//         }
+//     }
+//     if(flag) {
+//         return `${str} is a palindrome`;
+//     } else {
+//         return `${str} is not a palindrome`
+//     }
+// }
+// console.log(checkPalindromeString('abcba'));
+
+
+
+
+
+
+
+// Write a program that masks all but last four characters of the string "5565534276455423" to '#'
+
+// function blurDigits(str) {
+//     let newStr = '';
+//     for(var i=0; i<str.length-4; i++) {
+//         newStr += '#';
+//     }
+//     for(; i<str.length; i++) {
+//         newStr += str[i];
+//     }
+//     return newStr;
+// }
+// console.log(blurDigits('5565534276455423'));
+
+
+
+
+
