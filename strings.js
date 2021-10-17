@@ -136,3 +136,49 @@
 
 
 
+
+
+// Given an input string S and two characters c1 and c2, you need to replace every occurrence of character c1 with character c2 in the given string
+
+// function myReplaceAll(str,c1,c2) {
+//     let replacedStr = '';
+//     for(let char of str) {
+//         if(char === c1) {
+//             replacedStr += c2;
+//         } else {
+//             replacedStr += char;
+//         }
+//     }
+//     return replacedStr;
+// }
+// console.log(myReplaceAll('hello','h','e'));
+
+
+
+
+
+
+
+
+// Given an input string S that contains multiple words, you need to remove all the spaces present in the input string. There can be multiple spaces present after any word
+
+// function removeSpace(str) {
+//     let RemovedStr = '';
+//     for(let char of str) {
+//         if(char === ' ') {
+//             continue;
+//         } else {
+//             RemovedStr += char;
+//         }
+//     }
+//     return RemovedStr;
+// }
+// console.log(removeSpace('Hello,   how are      you?'));
+
+
+
+
+
+
+
+
