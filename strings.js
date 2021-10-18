@@ -182,3 +182,85 @@
 
 
 
+// Reverse the given string word wise. That is, the last word in given string should come at 1st place, last second word at 2nd place and so on. Individual words should remain as it is. example: Input : Welcome to NeoG Camp → Camp NeoG to Welcome
+
+// function reverseWord(sentence) {
+//     let trimmedSentence = sentence.trim();
+//     const wordList = [];
+//     let word = '';
+//     for(let i=0; i<trimmedSentence.length; i++) {
+//         if(trimmedSentence[i] === " " || trimmedSentence[i] === '.' || trimmedSentence[i] === '?' || trimmedSentence[i] === '!' ) {
+//             wordList.push(word);
+//             word = '';
+//         } else {
+//             word += sentence[i];
+//         }
+//     }
+//     for(let i=0; i<wordList.length-2; i++) {
+//         let temp = wordList[i];
+//         wordList[i] = wordList[wordList.length - i -1];
+//         wordList[wordList.length - i -1] = temp;
+//     }
+//     return wordList.join(' ');
+// }
+// console.log(reverseWord('hello how are you doing?'));
+
+
+
+
+
+
+
+
+// A program that counts the value of each character and prints the most repeated character?
+
+// function getCharCount(str) {
+//     const countObj = {};
+//     for(let i=0; i<str.length; i++) {
+//         if(countObj.hasOwnProperty(str[i])) {
+//             countObj[str[i]] += 1;
+//         } else {
+//             countObj[str[i]] = 1;
+//         }   
+//     }
+//     let maxChar = '';
+//     let maxCount = 0;
+//     for(let char in countObj) {
+//         if(countObj[char] > maxCount) {
+//             maxCount = countObj[char];
+//             maxChar = char;
+//         }
+//     }
+//     return maxChar
+// }
+// console.log(getCharCount('the function will return h. hhhhh'));
+
+
+
+
+
+
+
+
+// Write a program to toggle case of each character of the string "good afternoon" (example: "neogcamp" ⇒ "nEoGcAmP" )
+
+// function toggleCase(str) {
+//     let toggledStr = str[0];
+//     for(let i=1; i<str.length; i++) {
+//         if(i%2 !== 0) {
+//             toggledStr += str[i].toUpperCase();
+//         } else {
+//             toggledStr += str[i];
+//         }
+//     }
+//     return toggledStr;
+// }
+// console.log(toggleCase('good afternoon'));
+
+
+
+
+
+
+
+
