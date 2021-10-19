@@ -264,3 +264,24 @@
 
 
 
+// Given a string "how was your day?" and a word "how", write a program that removes the occurrence of the specified word from given sentence. ( input: string⇒"programming camp are amazing",word⇒ "programming"; output:" camp are amazing")
+
+// function removeWord(sentence,word) {
+//     let wordArray = [];
+//     let currentWord = '';
+//     for(let i=0; i<sentence.length; i++) {
+//         if(sentence[i] === " " || sentence[i] === '.' || sentence[i] === '?' || sentence[i] === '!') {
+//             wordArray.push(currentWord);
+//             currentWord = "";
+//         } else {
+//             currentWord += sentence[i];
+//         }
+//     }
+//     for(let i=0; i<wordArray.length; i++) {
+//         if(wordArray[i] === word) {
+//             wordArray.splice(i,1);
+//         }
+//     }
+//     return wordArray.join(" ")
+// }
+// console.log(removeWord('how was your day?','how'));
